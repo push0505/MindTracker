@@ -132,25 +132,28 @@
                                             <a href="{{url('about')}}" class="mega-menu-link">About </i></a>
                                            
                                         </li>
-                                        <li class="mega-menu-item">
-                                            <a href="{{url('pages')}}" class="mega-menu-link">Pages </i></a>
-                                            
-                                        </li>
+                                       
                                         <li class="mega-menu-item">
                                             <a href="{{url('service')}}" class="mega-menu-link">Services <i class="ti ti-arrow-up"></i></a>
                                             <ul class="mega-submenu">
-                                                <li><a href="personality-disorders.html">Personality Disorders</a></li>
-                                                <li><a href="troubling-emotions.html">Troubling Emotions</a></li>
-                                                <li><a href="individual-counselling.html">Individual Counselling</a></li>
-                                                <li><a href="child-counselling.html">Child Counselling</a></li>
-                                                <li><a href="group-counselling.html">Group Counselling</a></li>
-                                                <li><a href="couple-counselling.html">Couple Counselling</a></li>
+                                                <li><a href="{{url('personality-disorders')}}">Personality Disorders</a></li>
+                                                <li><a href="{{url('troubling-emotions')}}">Troubling Emotions</a></li>
+                                                <li><a href="{{url('individual-counselling')}}">Individual Counselling</a></li>
+                                                <li><a href="{{url('child-counselling')}}">Child Counselling</a></li>
+                                                <li><a href="{{url('group-counselling')}}">Group Counselling</a></li>
+                                                <li><a href="{{url('couple-counselling')}}">Couple Counselling</a></li>
                                             </ul>
                                         </li>
                                      
                                         <li class="mega-menu-item">
                                             <a href="{{url('blog')}}" class="mega-menu-link">Blog</i></a>
                                            
+                                        </li>
+
+
+                                        <li class="mega-menu-item">
+                                            <a href="{{url('faq')}}" class="mega-menu-link">FAQ </i></a>
+                                            
                                         </li>
                                         <li class="mega-menu-item">
                                             <a href="{{url('contact')}}" class="mega-menu-link">Contact </i></a>

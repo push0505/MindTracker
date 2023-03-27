@@ -1,9 +1,12 @@
 
 
+@extends('layouts.master')
+@section('content')
 
 
-   @extends('layouts.main')
-   @section('content')
+   {{-- @extends('layouts.main') --}}
+   {{-- @section('content') --}}
+   
            <!--site-main start-->
            <div class="site-main">
    
@@ -202,7 +205,7 @@
                             <div class="client-box">
                                 <div class="ttm-client-logo-tooltip" data-tooltip="Client One">
                                     <div class="client-thumbnail">
-                                        <img class="img-fluid" src="images/client/client-01.png" alt="image">
+                                        <img class="img-fluid" src="{{asset('frontend/images/client/client-01.png')}}" alt="image">
                                     </div>
                                 </div>
                             </div>
@@ -211,7 +214,7 @@
                             <div class="client-box">
                                 <div class="ttm-client-logo-tooltip" data-tooltip="Client Two">
                                     <div class="client-thumbnail">
-                                        <img class="img-fluid" src="images/client/client-02.png" alt="image">
+                                        <img class="img-fluid" src="{{asset('frontend/images/client/client-02.png')}}" alt="image">
                                     </div>
                                 </div>
                             </div>
@@ -220,7 +223,7 @@
                             <div class="client-box">
                                 <div class="ttm-client-logo-tooltip" data-tooltip="Client Three">
                                     <div class="client-thumbnail">
-                                        <img class="img-fluid" src="images/client/client-03.png" alt="image">
+                                        <img class="img-fluid" src="{{asset('frontend/images/client/client-03.png')}}" alt="image">
                                     </div>
                                 </div>
                             </div>
@@ -229,7 +232,7 @@
                             <div class="client-box">
                                 <div class="ttm-client-logo-tooltip" data-tooltip="Client Four">
                                     <div class="client-thumbnail">
-                                        <img class="img-fluid" src="images/client/client-04.png" alt="image">
+                                        <img class="img-fluid" src="{{asset('frontend/images/client/client-04.png')}}" alt="image">
                                     </div>
                                 </div>
                             </div>
@@ -238,7 +241,7 @@
                             <div class="client-box">
                                 <div class="ttm-client-logo-tooltip" data-tooltip="Client Five">
                                     <div class="client-thumbnail">
-                                        <img class="img-fluid" src="images/client/client-05.png" alt="image">
+                                        <img class="img-fluid" src="{{asset('frontend/images/client/client-05.png')}}" alt="image">
                                     </div>
                                 </div>
                             </div>
@@ -247,7 +250,7 @@
                             <div class="client-box">
                                 <div class="ttm-client-logo-tooltip" data-tooltip="Client Two">
                                     <div class="client-thumbnail">
-                                        <img class="img-fluid" src="images/client/client-02.png" alt="image">
+                                        <img class="img-fluid" src="{{asset('frontend/images/client/client-02.png')}}" alt="image">
                                     </div>
                                 </div>
                             </div>
@@ -256,7 +259,7 @@
                             <div class="client-box">
                                 <div class="ttm-client-logo-tooltip" data-tooltip="Client Four">
                                     <div class="client-thumbnail">
-                                        <img class="img-fluid" src="images/client/client-04.png" alt="image">
+                                        <img class="img-fluid" src="{{asset('frontend/images/client/client-04.png')}}" alt="image">
                                     </div>
                                 </div>
                             </div>

@@ -152,7 +152,7 @@
                         </div><!-- featured-icon-box end-->
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <!--featured-icon-box-->
+                        {{-- <!--featured-icon-box-->
                         <div class="featured-icon-box icon-align-top-content style2">
                             <div class="featured-icon">
                                 <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md">
@@ -178,7 +178,7 @@
                         </div><!-- featured-icon-box end-->
                     </div>
                 </div><!--row end-->
-                <!--row-->
+                <!--row--> --}}
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="pt-30 res-991-pt-10 text-center">

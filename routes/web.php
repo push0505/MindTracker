@@ -21,10 +21,26 @@ Route::get('/', function () {
 Route::get('/home',[MindTracker::class,'myHome']);
 Route::get('/',[MindTracker::class,'myHome']);
 Route::get('/about',[MindTracker::class,'about']);
-Route::get('/pages',[MindTracker::class,'page']);
+
 Route::get('/blog',[MindTracker::class,'blog']);
 Route::get('/contact',[MindTracker::class,'contact']);
 Route::get('/service',[MindTracker::class,'services']);
+
+Route::view('/faq', 'frontend/faq');
+
+Route::view('/personality-disorders', 'frontend/personality');
+
+Route::view('/troubling-emotions', 'frontend/emotions');
+
+Route::view('/individual-counselling', 'frontend/individual');
+
+Route::view('/child-counselling', 'frontend/child');
+
+Route::view('/group-counselling', 'frontend/group');
+
+Route::view('/couple-counselling', 'frontend/couple');
+
+
 
 
 

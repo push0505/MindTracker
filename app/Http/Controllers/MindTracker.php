@@ -16,10 +16,7 @@ class MindTracker extends Controller
         return view('frontend.about1');
     }
 
-    public function page()
-    {
-        return view('frontend.pages');
-    }
+   
 
     public function blog()
     {

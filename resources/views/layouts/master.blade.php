@@ -34,6 +34,7 @@
 <!-- slick -->
 <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/slick.css')}}"/>
 
+
 <!-- prettyphoto -->
 <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/prettyPhoto.css')}}"/>
 <!-- shortcodes -->
@@ -49,26 +50,21 @@
 <link rel="stylesheet" type="text/css" href="{{asset('frontend/css/responsive.css')}}"/>
 
 <!-- REVOLUTION LAYERS STYLES -->
-{{-- <link rel='stylesheet' id='rs-plugin-settings-css' href="{{asset('frontend/revolution/css/rs6.css')}}">  --}}
+<link rel='stylesheet' id='rs-plugin-settings-css' href="{{asset('frontend/revolution/css/rs6.css')}}"> 
 
 </head>
 <body>
 
 
-    @include('layouts.header')
+        @include ('layouts.header')
 
-        
-
-      
-    @yield('content')
-       
-   
-       
+        @yield('content')
 
 
-       
-
-
+           
+    
+    
+           
     
     
         <!-- Javascript -->
@@ -89,13 +85,22 @@
     <script src="{{asset('frontend/js/main.js')}}"></script>
 
 7
+    <!-- Revolution Slider -->
+    
+    <script src="{{asset('frontend/revolution/js/slider.js')}}"></script>
 
+    <!-- SLIDER REVOLUTION 6.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->    
+
+    <script  src="{{asset('frontend/revolution/js/revolution.tools.min.js')}}"></script>
+    
+    <script  src="{{asset('frontend/revolution/js/rs6.min.js')}}"></script>
+
+    @include ('layouts.footer')
+
+    <!-- Javascript end-->
 
 </body>
 
 <!-- Mirrored from themetechmount.com/html/zenista/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 20 Mar 2023 10:45:04 GMT -->
 </html>
-@include('layouts.footer')
-       
-
 

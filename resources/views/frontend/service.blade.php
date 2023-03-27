@@ -1,5 +1,9 @@
-@extends('layouts.main')
+{{-- @extends('layouts.main') --}}
+{{-- @section('content') --}}
+
+@extends('layouts.master')
 @section('content')
+       
        
        <!--site-main start-->
         <div class="site-main">

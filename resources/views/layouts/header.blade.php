@@ -1,5 +1,5 @@
- <!--header start-->
- <header id="masthead" class="header ttm-header-style-01">
+   <!--header start-->
+   <header id="masthead" class="header ttm-header-style-01">
     <div class="ttm-header-box-inner">
         <!--top_bar-->
         <div class="top_bar clearfix">
@@ -49,7 +49,7 @@
                         <!-- site-branding -->
                         <div class="site-branding">
                             <a class="home-link" href="index.html" title="zenista" rel="home">
-                                <img id="logo-img" class="img-center" src="images/logo-white.png" alt="logo-img">
+                                <img id="logo-img" class="img-center" src="{{asset('frontend/images/logo-white.png')}}" alt="logo-img">
                             </a>
                         </div><!-- site-branding end -->
                         <div class="btn-show-menu-mobile menubar menubar--squeeze">
@@ -61,79 +61,41 @@
                         <nav class="main-menu menu-mobile m-auto" id="menu">
                             <ul class="menu">
                                 <li class="mega-menu-item active">
-                                    <a href="#" class="mega-menu-link">Home <i class="ti ti-arrow-up"></i></a>
-                                    <ul class="mega-submenu">
-                                        <li><a href="index.html">Home Page One</a></li>
-                                        <li class="active"><a href="homepage-2.html">Home Page Two</a></li>
-                                        <li><a href="homepage-3.html">Home Page Three</a></li>
-                                         <li><a href="demo2/index.html" target="_blank">Demo Two<span>New</span></a></li>
-                                            <li><a href="demo3/index.html" target="_blank">Demo Three<span>New</span></a></li>
-                                        <li class="mega-menu-item">
-                                            <a href="#" class="mega-menu-link">Header Style</a>
-                                            <ul class="mega-submenu">
-                                                <li><a href="classic-header.html">Header Classic</a></li>
-                                                <li><a href="infostack-header.html">Header Infostack</a></li>
-                                                <li><a href="index.html">Header Classic Highlight</a></li>
-                                            </ul>
+                                    <a href="{{(url('home'))}}" class="mega-menu-link">Home </a><ul class="mega-submenu">
+                                        
+                                           
+                                  
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="mega-menu-item">
-                                    <a href="#" class="mega-menu-link">About <i class="ti ti-arrow-up"></i></a>
+                                    <a href="{{url('about')}}" class="mega-menu-link">About </i></a>
+                                   
+                                </li>
+                                
+                                <li class="mega-menu-item">
+                                    <a href="{{url('service')}}" class="mega-menu-link">Services <i class="ti ti-arrow-up"></i></a>
                                     <ul class="mega-submenu">
-                                        <li><a href="about1.html">About Us One</a></li>
-                                        <li><a href="about2.html">About Us Two</a></li>
+                                        <li><a href="{{url('personality-disorders')}}">Personality Disorders</a></li>
+                                        <li><a href="{{url('troubling-emotions')}}">Troubling Emotions</a></li>
+                                        <li><a href="{{url('individual-counselling')}}">Individual Counselling</a></li>
+                                        <li><a href="{{url('child-counselling')}}">Child Counselling</a></li>
+                                        <li><a href="{{url('group-counselling')}}">Group Counselling</a></li>
+                                        <li><a href="{{url('couple-counselling')}}">Couple Counselling</a></li>
                                     </ul>
                                 </li>
+                             
                                 <li class="mega-menu-item">
-                                    <a href="#" class="mega-menu-link">Pages <i class="ti ti-arrow-up"></i></a>
-                                    <ul class="mega-submenu">
-                                        <li><a href="service1.html">Service One</a></li>
-                                        <li><a href="service2.html">Service Two</a></li>
-                                        <li><a href="our-team.html">Our Team</a></li>
-                                        <li><a href="team-details.html">Team Details</a></li>
-                                        <li><a href="f-a-q.html">F.A.Q</a></li>
-                                        <li><a href="error.html">404 Page</a></li>     
-                                    </ul>
+                                    <a href="{{url('blog')}}" class="mega-menu-link">Blog</i></a>
+                                   
                                 </li>
                                 <li class="mega-menu-item">
-                                    <a href="#" class="mega-menu-link">Services <i class="ti ti-arrow-up"></i></a>
-                                    <ul class="mega-submenu">
-                                        <li><a href="personality-disorders.html">Personality Disorders</a></li>
-                                        <li><a href="troubling-emotions.html">Troubling Emotions</a></li>
-                                        <li><a href="individual-counselling.html">Individual Counselling</a></li>
-                                        <li><a href="child-counselling.html">Child Counselling</a></li>
-                                        <li><a href="group-counselling.html">Group Counselling</a></li>
-                                        <li><a href="couple-counselling.html">Couple Counselling</a></li>
-                                    </ul>
+                                    <a href="{{url('faq')}}" class="mega-menu-link">FAQ </i></a>
+                                    
                                 </li>
                                 <li class="mega-menu-item">
-                                    <a href="#" class="mega-menu-link">Research <i class="ti ti-arrow-up"></i></a>
-                                    <ul class="mega-submenu">
-                                        <li><a href="project-style1.html">Research Style</a></li>
-                                        <li class="mega-menu-item">
-                                            <a href="#" class="mega-menu-link">Research Details</a>
-                                            <ul class="mega-submenu">
-                                                <li><a href="detail-style-1.html">Detail Style One</a></li>
-                                                <li><a href="detail-style-2.html">Detail Style Two</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="mega-menu-item">
-                                    <a href="#" class="mega-menu-link">Blog <i class="ti ti-arrow-up"></i></a>
-                                    <ul class="mega-submenu">
-                                        <li><a href="blog.html">Blog Classic</a></li>
-                                        <li><a href="blog-leftimg.html">Blog Left Image</a></li>
-                                        <li><a href="blog-single.html">Blog Single View</a></li>
-                                    </ul>
-                                </li>
-                                <li class="mega-menu-item">
-                                    <a href="#" class="mega-menu-link">Contact <i class="ti ti-arrow-up"></i></a>
-                                    <ul class="mega-submenu">
-                                        <li><a href="contact.html">Contact Us One</a></li>
-                                        <li><a href="contact-us2.html">Contact Us Two</a></li>
-                                    </ul>
+                                    <a href="{{url('contact')}}" class="mega-menu-link">Contact </i></a>
+                                 
                                 </li>
                             </ul>
                         </nav>
@@ -160,7 +122,7 @@
             </div>
         </div>
 
-      
+       
     </div>
 </header>
 <!--header end-->
