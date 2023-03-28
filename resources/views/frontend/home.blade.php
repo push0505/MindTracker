@@ -152,33 +152,7 @@
                         </div><!-- featured-icon-box end-->
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        {{-- <!--featured-icon-box-->
-                        <div class="featured-icon-box icon-align-top-content style2">
-                            <div class="featured-icon">
-                                <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-md">
-                                    <i class="flaticon flaticon-couple-1"></i>
-                                </div>
-                            </div>
-                            <div class="featured-content">
-                                <div class="featured-title">
-                                    <h5><a href="couple-counselling.html">Couple Counselling</a></h5>
-                                </div>
-                                <div class="featured-desc">
-                                    <p>Whether it in the context of a marriage is the space for two people to interact with the counsellor to explore.</p>
-                                </div>
-                                <a class="ttm-btn ttm-btn-size-sm ttm-btn-shape-round ttm-icon-btn-right ttm-btn-color-dark" href="couple-counselling.html">READ MORE<i class="fa fa-arrow-right"></i></a>
-                            </div>
-                            <div class="ttm-boxbg-icon">
-                                <div class="ttm-service-iconbox">
-                                    <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-xl">
-                                        <i class="flaticon flaticon-couple-1"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- featured-icon-box end-->
-                    </div>
-                </div><!--row end-->
-                <!--row--> --}}
+                      
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="pt-30 res-991-pt-10 text-center">

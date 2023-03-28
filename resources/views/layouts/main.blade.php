@@ -134,7 +134,7 @@
                                         </li>
                                        
                                         <li class="mega-menu-item">
-                                            <a href="{{url('service')}}" class="mega-menu-link">Services <i class="ti ti-arrow-up"></i></a>
+                                            <a href="{{url('services')}}" class="mega-menu-link">Services <i class="ti ti-arrow-up"></i></a>
                                             <ul class="mega-submenu">
                                                 <li><a href="{{url('personality-disorders')}}">Personality Disorders</a></li>
                                                 <li><a href="{{url('troubling-emotions')}}">Troubling Emotions</a></li>

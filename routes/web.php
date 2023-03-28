@@ -24,7 +24,7 @@ Route::get('/about',[MindTracker::class,'about']);
 
 Route::get('/blog',[MindTracker::class,'blog']);
 Route::get('/contact',[MindTracker::class,'contact']);
-Route::get('/service',[MindTracker::class,'services']);
+Route::get('/services',[MindTracker::class,'services']);
 
 Route::view('/faq', 'frontend/faq');
 
@@ -39,6 +39,13 @@ Route::view('/child-counselling', 'frontend/child');
 Route::view('/group-counselling', 'frontend/group');
 
 Route::view('/couple-counselling', 'frontend/couple');
+
+Route::view('/deskapp', 'Adminlayouts/index');
+
+
+
+
+
 
 
 
